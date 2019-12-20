@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Horoscope</title>
+</head>
+<body>
+        
+    <header><h1> Horoskop </h1></header>
+    
+    <main>
+        <div id ="main-container"> 
+      
+            <h1>Skriv din födelsedatum nedan för att veta ditt horoskop</h1>
+            
+            
+            <input type= "number" placeholder="yyyymmdd" name="birthDate" id="birthDate"> <br>
+            <button name="saveHoroscope"   onclick="saveHoroscope()" id ="saveButton">Spara Horoskop</button>
+            <button name="updateHoroscope" onclick="updateHoroscope()" id= "updateButton">Uppdatera horoskop</button>
+            <button name="deleteHoroscope" onclick="deleteHoroscope()" id ="deleteButton">Radera Horoskop</button>
+        
+        </div>
+
+        <div id="displayHoroscope"> </div>
+
+    </main> 
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
