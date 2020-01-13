@@ -62,7 +62,7 @@ deleteHoroscope = function() {
             }
     })
     .done(function(data){
-        $('#displayHoroscope').remove();
+        $('#displayHoroscope').empty();
     })
 
     }
